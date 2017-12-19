@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main (void)
 {
-int i,n,s=0;
+int i=0,n,s=0;
 printf("Enter the value:");
 scanf("%d",&n);
-for(i=0;i<=n;i++)
-{
+sum:
 s=s+i;
-}
-printf(" %d",s);
+i++;
+if(i<=5)
+goto sum;
+printf("%d",s);
 }
