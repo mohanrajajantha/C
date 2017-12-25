@@ -15,5 +15,7 @@ printf("Negative");
 else
 printf("Zero");
      }
+     else
+     printf("invalid");
      return 0;
 }
