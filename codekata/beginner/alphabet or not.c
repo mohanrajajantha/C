@@ -8,6 +8,6 @@ scanf("%c",&a);
 if(isalpha(a))
 {printf(" Alphabet");}
 else
-{printf(" Not an alphabet");}
+{printf(" No");}
 return 0;
 }
