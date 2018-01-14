@@ -1,6 +1,14 @@
 #include<stdio.h>
 int main (void)
-{
-for(int i=0;i<5;i++)
+{ 
+  int n;
+  scanf("%d",&n);
+  if(n<0)
+  {
+  
+for(int i=0;i<n;i++)
 printf(" Hello\n");
+}
+else
+  printf(" Invalid");
 }
