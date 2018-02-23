@@ -13,5 +13,5 @@ goto sum;
 printf("%d",s);
   }
   else
-    printf("invalid")
+    printf("no")
 }
