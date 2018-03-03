@@ -1,26 +1,22 @@
 #include<stdio.h>
-int armstrong(int);
 int main()
 {
-	int n,m,i,k;
-	scanf("%d%d",&n,&m);
-	
-	for(i=n;i<m;i++)
+	int n,r,k,s=0;
+	scanf("%d",&n);
+	k=n;
+	while(n>0)
 	{
-		k=armstrong(i);
-		if(k==i)
-		printf("%d\n",i);
-           
-}
-	return 0;
-}
-int armstrong(int l)
-{int r,s=0;
-	while(l>0)
-	{
-		r=l%10;
-		l=l/10;
+		r=n%10;
+		n=n/10;
 		s=s+(r*r*r);
 	}
-	return s;
+	if(s==k)
+{
+		printf("Yes");
+	}
+	else
+	{
+	
+	printf("No");
 }
+	return 0;
