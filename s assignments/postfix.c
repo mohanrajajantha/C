@@ -24,7 +24,7 @@ int pre(char ch)
 			value=5;
 			break;
 	}
-	return 0;
+	return value;
 }
 void push(char ch)
 {
